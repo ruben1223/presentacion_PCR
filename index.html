@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="../dist/reset.css">
+		<link rel="stylesheet" href="../dist/reveal.css">
+		<link rel="stylesheet" href="../dist/theme/blood.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="../plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+				<section>
+					<h1>COVID</h1>
+					<set data-background=# img src="../img/covid.png"/>
+					<img style="border: none;box-shadow: none;width: 450px;" src="../img/covid.png"/>
+				</section>
+				<section>
+					<h3>ÍNDEX</h3>
+					<p class="fragment" data-fragment-index="1">
+					·Finalitat de l'aplicació web
+					</p>
+					<p class="fragment" data-fragment-index="2">
+					·Funcionalitats
+					</p>
+					<p class="fragment" data-fragment-index="2">
+					(Inserir dades,Mostrar dades,Filtrar dades,Eliminar dades,Modificar dades)
+					</p>
+				</section>
+				<section>
+					<h2>Per a què serveix aquesta aplicació web?</h2>
+				</section>
+				<section>
+					La pàgina web està pensada per gestionar totes les PCRs fetes a pacients i conèixer informació de la sala on s'ha realitzat la prova, el metge que ha fet la prova i els resultat de la prova (positiu o negatiu)
+				</section>
+				</section>
+				<section>
+				<section>
+					<h2>FUNCIONALITATS</h2>
+				</section>
+				<section>
+					<h5>Que es pot fer amb l'aplicació web?</h5>
+					<p>
+					Amb l'aplicació web disposam de diferents funcionalitats bàsiques per a la gestió de la base de dades de les PCRs
+					</p>
+				</section>
+				<section>
+					<h5>Inserir dades</h5>
+					<p>
+					Podem inseriri dades a la base de dades per registrar les PCRs que s'han fet amb informacions útils com les abans descrites
+					</p>
+				</section>
+				<section>
+					<h5>Mostrar dades</h5>
+					<p>
+					També podem mostrar les dades en pantalla a l'ususari
+					</p>
+				</section>
+				<section>
+					<h5>Filtrar dades</h5>
+					<p>
+					Altra funcionalitat útil de la que disposam es la de filtrar dades perqué aparesquin segons els nostres interessos
+					</p>
+				</section>
+				<section>
+					<h5>Eliminar dades</h5>
+					<p>
+					En cas de que certes dades ja no ens resultin útils o per lo que sigui ens estorben, les podem eliminar
+					</p>
+				</section>
+				<section>
+					<h5>Modificar dades</h5>
+					<p>
+					Si ens hem equivocat en una part d'una dada però no la volem eliminar, podem simplement modificarla fins que quedi com volem
+					</p>
+				</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="../dist/reveal.js"></script>
+		<script src="../plugin/notes/notes.js"></script>
+		<script src="../plugin/markdown/markdown.js"></script>
+		<script src="../plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+			</script>
+	</body>
+</html>
